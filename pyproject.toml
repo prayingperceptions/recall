@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "recall"
+version = "0.1.0"
+description = "Local-first agent memory: a Markdown file you can read. No server, no API key, no vector DB."
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "prayingperceptions" }]
+dependencies = []
+readme = "README.md"
+
+[tool.setuptools.packages.find]
+include = ["recall*"]
